@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="productInfo.css" />
+    <script
+      src="https://kit.fontawesome.com/12d0cdfeb0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Gonzales Premium Guitars | Description</title>
+  </head>
+  <body>
+    <!---- NAV BAR START ---->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-guitar" style="color: transparent"></i>
+        </span>
+        <a href="index.html" class="logodaw"
+          >Gonzales <span style="color: #f09d51">Premium</span> Guitars</a
+        >
+        <div class="cart-btn">
+          <a class="nav-icon" href="checkout.html">
+            <i class="fas fa-cart-plus" style="color: white"></i>
+          </a>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!---- NAV BAR END ---->
+
+    <!-- PRODUCT INFO START -->
+
+    <section style="height: 1000px">
+      <a
+        class="close-cart"
+        href="/product.html#shopee"
+        style="color: rgb(240, 157, 81); font-size: 3.5rem"
+      >
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+      <div class="product-center">
+        <article class="product">
+          <div class="img-container">
+            <img
+              src="/images/lowdenf50.jpg"
+              alt="product"
+              class="product-img"
+            />
+          </div>
+        </article>
+        <article class="product">
+          <div class="img-container">
+            <img
+              src="/images/lowdenf50close.jpg"
+              alt="product"
+              class="product-img"
+            />
+          </div>
+        </article>
+        <article class="product">
+          <div class="img-container">
+            <img
+              src="/images/lowdenf5000.jpg"
+              alt="product"
+              class="product-img"
+            />
+          </div>
+        </article>
+      </div>
+      <div class="center-h3">
+        <h3>Lowden F50</h3>
+      </div>
+      <div class="center-h4">
+        <h4 class="h4des_margin">
+          Solid Sitka spruce top, Solid Indian rosewood back and sides, a
+          five-piece Mahogany/Rosewood neck, Ebony fingerboard and bridge, and
+          High-quality binding and purfling materials.
+        </h4>
+      </div>
+
+      <div class="center-h4">
+        <button class="bag-btn bag-btns" data-id="9">
+          <i class="fas fa-shopping-cart"></i>
+          add to cart
+        </button>
+      </div>
+    </section>
+
+    <!-- PRODUCT INFO END -->
+
+    <!-- Products-->
+    <section class="products" id="shopee" hidden="hidden">
+      <div class="section-title">
+        <a href="#shopee" style="text-decoration: none; color: black">
+          <h2 style="text-decoration: underline#f09D51">Acoustic Collection</h2>
+        </a>
+      </div>
+      <div class="products-center"></div>
+    </section>
+    <!-- End of Products-->
+
+    <!-- cart -->
+    <div class="cart-overlay" hidden="hidden">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!--cart item-->
+          <!-- <div class="cart-item"> -->
+
+          <!--/div-->
+          <!--cart item end-->
+        </div>
+        <div class="cart-footer">
+          <h3 style="color: black">
+            your total : ₱ <span class="cart-total">0</span>
+          </h3>
+          <button
+            class="banner-btn"
+            onclick="window.location.href='checkout.html';"
+          >
+            clear cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end cart -->
+
+    <script src="store.js"></script>
+  </body>
+</html>
